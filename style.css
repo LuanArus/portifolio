@@ -126,3 +126,80 @@ footer {
   margin-top: 40px;
   color: #4ade80;
 }
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  /* CONTAINER */
+  .container {
+    padding: 15px;
+  }
+
+  /* SECTIONS */
+  section {
+    margin: 35px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  /* GRID vira 1 coluna */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid.small {
+    grid-template-columns: 1fr;
+  }
+
+  /* CARDS */
+  .card {
+    padding: 16px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  /* TECH */
+  .tech {
+    gap: 8px;
+  }
+
+  .tech span {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 13px;
+    padding: 20px;
+  }
+}
