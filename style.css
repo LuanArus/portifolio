@@ -6,8 +6,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: #0b0f1a;
-  color: #e5e7eb;
+  background: #0a0f0d;
+  color: #d1fae5;
   line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #0b0f1a, #1e1b4b);
+  background: linear-gradient(135deg, #020617, #064e3b);
   padding: 80px 20px;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .subtitle {
-  color: #8b5cf6;
+  color: #10b981;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -38,7 +38,7 @@ body {
 .description {
   max-width: 600px;
   margin: auto;
-  color: #9ca3af;
+  color: #6ee7b7;
 }
 
 /* SECTIONS */
@@ -48,7 +48,7 @@ section {
 
 h2 {
   margin-bottom: 20px;
-  border-left: 4px solid #8b5cf6;
+  border-left: 4px solid #10b981;
   padding-left: 10px;
 }
 
@@ -65,16 +65,16 @@ h2 {
 
 /* CARDS */
 .card {
-  background: #111827;
+  background: #020617;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #1f2937;
+  border: 1px solid #064e3b;
   transition: all 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  border-color: #8b5cf6;
+  border-color: #10b981;
 }
 
 .card h3, .card h4 {
@@ -82,14 +82,14 @@ h2 {
 }
 
 .card p {
-  color: #9ca3af;
+  color: #6ee7b7;
   font-size: 14px;
 }
 
 .card a {
   display: inline-block;
   margin-top: 10px;
-  color: #8b5cf6;
+  color: #10b981;
   font-size: 14px;
 }
 
@@ -101,16 +101,16 @@ h2 {
 }
 
 .tech span {
-  background: #111827;
+  background: #020617;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid #1f2937;
+  border: 1px solid #064e3b;
   font-size: 14px;
 }
 
 /* LINKS */
 a {
-  color: #8b5cf6;
+  color: #10b981;
   text-decoration: none;
 }
 
@@ -124,5 +124,5 @@ footer {
   padding: 30px;
   background: #020617;
   margin-top: 40px;
-  color: #6b7280;
+  color: #4ade80;
 }
